@@ -59,4 +59,7 @@
 	<class name="gripper_servo" type="mavros::extra_plugins::GripperServoPlugin" base_class_type="mavros::plugin::PluginBase">
   		<description>Send servo controls to FCU.</description>
 	</class>
+	<class name="mission_height_setpoint" type="mavros::extra_plugins::MissionHeightSetpointPlugin" base_class_type="mavros::plugin::PluginBase">
+  		<description>Send height setpoint from companion computer to PixHawk</description>
+	</class>
 </library>

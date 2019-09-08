@@ -28,11 +28,11 @@ add_message_files(
   HomePosition.msg
   LandingTarget.msg
   LogData.msg
-    GripperServo.msg
-
+  GripperServo.msg
   LogEntry.msg
   ManualControl.msg
   Mavlink.msg
+  MissionHeightSetpoint.msg
   OpticalFlowRad.msg
   OverrideRCIn.msg
   Param.msg
